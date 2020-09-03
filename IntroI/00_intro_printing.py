@@ -12,21 +12,24 @@
 # int bool short (c)
 
 
-
 first_name = "Tom"
-# print("Hello CSPT13 and " + first_name)
+print("Hello CSPT13 and " + first_name)
+print("Hello CSPT13 and", first_name)
 # num = 23.87
 
 # # f strings
-# my_string = "    this is a string tom    "
-# print(my_string)
+print(f"THis is a number: ({1 + 32})")
+print(f"THis is a name: ({first_name})")
 
-# print(my_string.strip())
-# print(len(my_string))
-# print(len(my_string.strip()))
+my_string = "    this is a string tom    "
+print(my_string)
+
+print(my_string.strip())
+print(len(my_string))
+print(len(my_string.strip()))
 
 
-# print(f"Hello CSPT13 and           {len('this is a test')}     {first_name}.......".strip())
+print(f"  Hello CSPT13 and    {len('this is a test')} {first_name}...".strip())
 # print("something on a new line")
 
 # first_name
