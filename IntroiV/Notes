@@ -1,0 +1,6 @@
+inheritance = is_a
+    ex: An Entity is_a Player.... a Player is_a Wizard ..a Wizard is_a Warrior
+
+composition = has_a
+    ex: Player has_a weapon
+    Hand --(has-a)--> Weapon
